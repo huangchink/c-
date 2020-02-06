@@ -1,0 +1,14 @@
+#include<iostream>
+#include<string>
+#include <sstream>
+  using namespace std;
+  int main(){
+      string str;
+      string fuck;
+      istringstream  shit("Lebron is A BBitch");
+      getline(shit, str, 'B');
+      cout<<"The string we have gotten is :"<<str<<endl;
+      getline(shit, str, 'A');
+      cout<<"The string we have gotten is :"<<str<<endl;
+      return 0;
+	       }

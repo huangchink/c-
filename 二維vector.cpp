@@ -1,13 +1,11 @@
 #include <iostream>
 using namespace std;
-#include <set>
+#include <vector>
 int main()
 {
-	set<int> mySet;
-	mySet.insert(20);   // mySet = {20}
-	mySet.insert(10);   // mySet = {10, 20}
-	mySet.insert(30);   // mySet = {10, 20, 30}
-	cout << mySet[0];
+vector<int>fuck[10];
+fuck[0].push_back(100);
+cout<<fuck[0][0];
 
 	return 0;
 }

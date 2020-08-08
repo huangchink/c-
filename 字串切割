@@ -4,11 +4,11 @@
   using namespace std;
   int main(){
       string str;
-      string fuck;
-      istringstream  shit("Lebron is A BBitch");
-      getline(shit, str, 'B');
+      string fuck ="1,5,6,7,8,9";
+      istringstream  shit(fuck);
+      getline(shit, str, ',');
       cout<<"The string we have gotten is :"<<str<<endl;
-      getline(shit, str, 'A');
+      getline(shit, str, ',');
       cout<<"The string we have gotten is :"<<str<<endl;
       return 0;
 	       }

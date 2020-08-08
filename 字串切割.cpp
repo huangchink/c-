@@ -13,5 +13,12 @@
       cout<<"The string we have gotten is :"<<str<<endl;
      integer.push_back(atoi(str.c_str()));//str.c_str() 把string物件轉成string型態
       }
+      
+    for(int i=0;i<integer.size();i++)  
+{
+    
+    cout<<integer[i]<<endl;
+    
+}
       return 0;
 	       }
